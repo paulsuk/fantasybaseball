@@ -1,0 +1,51 @@
+TODOS:
+
+Overall:
+- Create API endpoints for:
+	- get all teams in league
+	- get all team stats
+	- see all players in team
+	- all free agents
+- create a simple frontend that calls the backend to
+	- display all teams
+	- see table of team stats
+	- see all player stats
+	- see free agents
+
+
+
+Data Collection:
+- get data for each player (async)
+- get aggregate data for entire team roster
+- get overall team stats for cats ranked
+
+
+- get free agents
+
+- move functionality to write into a sqlite db, and init classes from db
+
+Front End:
+- Create a flask website
+- see all teams
+- see standings for the year
+- see stats for team for each cat ranked totals
+- show percentiles/coloured rankings to show cats of strength/weakness
+
+Auth:
+- Automatically get access code (maybe using selenium?) (https://github.com/josuebrunel/yahoo-oauth), to populate instead of hard-coding it
+
+
+Concrete next goals:
+- get yahoo data, and be able to get data for season, or for recent date ranges
+- simple UI to view my league, team rankings, individual team rankings, overview of team and performance
+- integrate other data source
+- start to run own simple projections
+
+Longer term ideas:
+- simple projections
+- advanced stats
+- positional fantasy value created above average
+- identify pickup targets in free agency (better if can be isolated by position)
+- identify sleepers or buy/sell low/high candidates
+- identify trade targets
+
