@@ -8,7 +8,7 @@ Jinja2==2.10.3
 MarkupSafe==1.1.1
 pyaml==19.4.1
 python-dotenv==0.10.3
-PyYAML==5.1.2
+PyYAML==5.4
 rauth==0.7.3
 requests==2.22.0
 urllib3==1.25.6
